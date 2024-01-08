@@ -1,1 +1,1 @@
-# Internship-8-HTML-CSS
+# A straightforward website built with fundamental HTML and essential CSS.
