@@ -64,3 +64,17 @@ span {
     font-family: monospace;
     font-size: 25px;
 }
+
+/* footer */
+
+footer div{
+    background-color: black;
+    color: White;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+footer span {
+    font-size: 13px;
+}
