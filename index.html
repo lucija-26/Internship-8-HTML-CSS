@@ -10,19 +10,19 @@
         <h1>HTML Only</h1>
         <nav>
             <ul>Navigation
-                <li>What is this?</li>
-                <li>How does it work?</li>
-                <li>But why?</li>
+                <li><a href="#what-is-this">What is this?</a></li>
+                <li><a href="#how-does-it-work">How does it work?</a></li>
+                <li><a href="#why">But why?</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <div>
-            <h2>What is this?</h2>
+            <h2 id="what-is-this">What is this?</h2>
             <p>This page was inspired by a <a href="https://twitter.com/whitep4nth3r/status/1510568114966171649">tweet from Salma </a>. Pretty HTML only pages are difficult to make well, and accessible. But here we are. I'm trying my best.</p>
         </div>
         <div>
-            <h2>How does it work?</h2>
+            <h2 id="how-does-it-work">How does it work?</h2>
             <p>The key to a lot of this is leveraging using tables with a <span>role="presentation"</span> attribute to make decorated sections without css. If you view source on the page, you'll see that there are a LOT of tables. The table tag typically is used to display tabular data and should NOT be used as a layout method. However, since I am not allowed to use CSS, I am pretty much exclusively relying on tables for this purpose. The presentation role tells the browser to not expose the table and its tabluar children in the accessibility tree. This will make it easier to navigate for assistive technology.</p>
 
             <p>I'm also leveraging some deprecated HTML elements from HTML 3.2 that you should never use. In order to be "compliant",
@@ -33,7 +33,7 @@
             <p>HOWEVER, I'm also using some newer things such as <span>details/summary, section, main, header,</span> and <span>footer</span>. So I'm just making a mess of my doctype and what I should be actually using!</p>
         </div>
         <div>
-            <h2>But why?</h2>
+            <h2 id="why">But why?</h2>
             <img src="./assets/why-huh.gif">
             <p>I make terrible things. This was an exciting nerd snipe on a sunday, And I took up the challenge!</p>
         </div>
