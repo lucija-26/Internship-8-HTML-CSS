@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    margin: auto;
+    padding-top: 10px;
+}
+
+nav {
+    text-align: center;
+    line-height: 1;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+    font-size: 21px;
+}
+
+.icon {
+    font-size: 35px;
+    vertical-align: middle;
+}
